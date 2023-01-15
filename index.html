@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Reação Quimica</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="plotly-2.17.1.min.js"></script>
+</head>
+<body>
+  <p>Este script simula o comportamento de uma reaçao quimica com avanço do tempo e os valores de concentraçao</p>
+  <div id="values">
+    <h1>Simulação de reação química de segunda ordem</h1>
+    <p>reaçao simples onde A reage com B e forma C</p>
+    <form>
+      Constantes de velocidade (K): <input type="text" id="k"><br>
+      Concentração inicial de A (M/L): <input type="text" id="A_0"><br>
+      Concentração inicial de B (M/L): <input type="text" id="B_0"><br>
+    </form>
+    <p id="valf">Valor que falta</p>
+    <button id="send">Simular</button>
+  </div>
+  <div id="graph">
+  </div>
+</body>
+<script src="/script.js"></script>
+</html>
